@@ -1,0 +1,26 @@
+.form-group input[type ="text"],
+.form-group input[type ="password"],
+.form-group button
+{
+    box-shadow: none;
+}
+.form-group input[type ="text"],
+.form-group input[type ="password"]{
+    border-radius: 0;
+    border-width: 0 0px 1px;
+}
+.form-group input[type ="text"]:focus,
+.form-group input[type ="password"]:focus{
+    border-bottom: 2px solid #0062cc;
+}
+button{
+    border-radius: 50px;
+    width: 100%;
+}
+.register{
+    margin-top: 10px;
+
+}
+.register a{
+    text-decoration: none;
+}
